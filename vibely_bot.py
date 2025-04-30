@@ -6,8 +6,8 @@ from telegram import Update, Bot, InputFile
 from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Filters
 from telegram.ext import CallbackContext
 
-TOKEN = os.getenv("BOT_TOKEN")
-OPENAI_KEY = os.getenv("OPENAI_API_KEY")
+TOKEN = os.getenv("7750380246:AAHyabZQ_GNJrAqKaqjojAF7tn7KFDpMIGM")
+OPENAI_KEY = os.getenv("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")
 bot = Bot(token=TOKEN)
 openai.api_key = OPENAI_KEY
 
